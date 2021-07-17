@@ -16,4 +16,20 @@ def subtract_results
 render("subtract_templates/subtract_results.html.erb")
 end 
 
+def multiply_results
+  render("multiply_templates/multiply_results.html.erb")
+end 
+
+def multiply_form
+render("multiply_templates/multiply_form.html.erb")
 end
+
+def divide_results
+render("divide_templates/divide_results.html.erb")
+end
+
+def divide_form
+  render("divide_templates/divide_form.html.erb")
+end 
+
+end 
